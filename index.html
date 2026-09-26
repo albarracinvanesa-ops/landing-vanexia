@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vanexia | Automatización, Análisis de Datos e Inteligencia Artificial</title>
+  
+  <!-- SEO & Metadatos -->
+  <meta name="description" content="Ayudo a dueños de pinturerías y comercios de materiales de construcción a dejar de perder horas analizando Excel y obtener en minutos la información que necesitan para tomar decisiones, utilizando IA.">
+  <meta name="keywords" content="Vanexia, automatización, análisis de datos, inteligencia artificial, pymes, pinturerías, materiales de construcción, Excel, Tango, reportes">
+  <meta name="author" content="Vanexia">
+  
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:title" content="Vanexia | Automatización y Análisis de Datos con IA">
+  <meta property="og:description" content="Transformá tus datos en información clara para tomar mejores decisiones en minutos.">
+  <meta property="og:image" content="assets/logo.png">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+
+  <!-- Tipografía Montserrat de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Estilos Principales -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =================================================================
+       BARRA DE NAVEGACIÓN SUPERIOR
+       ================================================================= -->
+  <header class="navbar" id="inicio">
+    <div class="container nav-container">
+      <a href="#inicio" class="brand-logo-link" aria-label="Vanexia Inicio">
+        <img src="assets/logo-icon.png" alt="Vanexia Icon" class="nav-logo-icon" width="38" height="38">
+        <span class="nav-brand-text">VANEXIA</span>
+      </a>
+      <a href="https://wa.me/5492974110228?text=Hola%20Vane!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20las%20soluciones%20de%20Vanexia%20para%20mi%20negocio." target="_blank" rel="noopener noreferrer" class="nav-cta-btn whatsapp-btn" data-action="whatsapp" id="nav-whatsapp-btn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+        </svg>
+        <span>Contactar</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- =================================================================
+         1. HERO SECTION
+         ================================================================= -->
+    <section class="hero-section" id="hero" aria-label="Presentación principal">
+      <div class="container">
+        
+        <!-- Logo Principal de Vanexia -->
+        <div class="hero-logo-wrapper">
+          <img src="assets/logo.png" alt="Logo de Vanexia - Automatización, Datos e IA" class="hero-logo-img" width="220" height="220">
+        </div>
+
+        <!-- Badge de especialidad -->
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          <span>Automatización · Datos · Inteligencia Artificial</span>
+        </div>
+
+        <!-- Título Principal Requerido -->
+        <h1 class="hero-title">
+          Ayudo a dueños de pinturerías y comercios de materiales de construcción a dejar de perder horas analizando Excel y obtener en minutos la información que necesitan para tomar decisiones, utilizando IA.
+        </h1>
+
+        <!-- Acciones del Hero -->
+        <div class="hero-actions">
+          <a href="https://wa.me/5492974110228?text=Hola%20Vane!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20las%20soluciones%20de%20Vanexia%20para%20mi%20negocio." target="_blank" rel="noopener noreferrer" class="btn-primary whatsapp-btn" data-action="whatsapp" id="hero-btn-saber-mas" aria-label="Quiero saber más por WhatsApp">
+            <span>Quiero saber más</span>
+            <!-- Icono de WhatsApp -->
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 18.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.12 8.12 0 0 1-1.25-4.29c0-4.51 3.67-8.18 8.19-8.18 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.51-3.67 8.18-8.19 8.18zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.17 1.73 2.65 4.2 3.71.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z"/>
+            </svg>
+          </a>
+
+          <div class="hero-guarantee">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+            </svg>
+            <span>Conversación directa · Sin intermediarios ni compromisos</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         2. QUÉ HAGO SECTION
+         ================================================================= -->
+    <section class="section section-bg-alt" id="servicios" aria-label="Qué hago">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Soluciones Concretas</span>
+          <h2 class="section-title">Qué hago</h2>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Bloque 1 -->
+          <article class="service-card" id="servicio-1">
+            <span class="service-card-number">01</span>
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Icono: Datos limpios y estructurados -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Transformo datos en información clara</h3>
+            <p class="service-card-desc">
+              Organizo y proceso datos provenientes de Excel y sistemas de gestión para convertirlos en información útil.
+            </p>
+          </article>
+
+          <!-- Bloque 2 -->
+          <article class="service-card" id="servicio-2">
+            <span class="service-card-number">02</span>
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Icono: Automatización de procesos -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Automatizo tareas de análisis</h3>
+            <p class="service-card-desc">
+              Reduzco el trabajo manual de ordenar, cruzar y preparar información para generar reportes.
+            </p>
+          </article>
+
+          <!-- Bloque 3 -->
+          <article class="service-card" id="servicio-3">
+            <span class="service-card-number">03</span>
+            <div class="service-icon-box" aria-hidden="true">
+              <!-- Icono: Tablero / Métricas de decisión -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+                <line x1="2" y1="20" x2="22" y2="20"></line>
+              </svg>
+            </div>
+            <h3 class="service-card-title">Creo herramientas para tomar decisiones</h3>
+            <p class="service-card-desc">
+              Dashboards e informes simples para conocer ventas, costos, stock y el funcionamiento de cada sucursal.
+            </p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =================================================================
+         3. PARA QUIÉN SECTION
+         ================================================================= -->
+    <section class="target-section" id="para-quien" aria-label="Para quién es">
+      <div class="container">
+        <div class="target-layout">
+          
+          <!-- Contenido textual descriptivo -->
+          <div class="target-content">
+            <span class="section-tag">Enfoque y Especialización</span>
+            <h2 class="target-title">
+              Para negocios que tienen datos, pero no tiempo para analizarlos.
+            </h2>
+            
+            <p class="target-text-lead">
+              Trabajo especialmente con dueños, socios y responsables administrativos de pinturerías y comercios de materiales de construcción con varias sucursales.
+            </p>
+
+            <p class="target-text-body">
+              Si todos los meses tenés que sacar información de Tango, Excel u otros sistemas, cruzar datos y preparar informes manualmente, Vanexia busca ayudarte a transformar ese proceso en información clara y fácil de consultar.
+            </p>
+          </div>
+
+          <!-- Cuadro visual comparativo que refuerza el mensaje sin inventar datos -->
+          <div class="target-card-box">
+            <div class="target-card-header">Tu día a día con Vanexia</div>
+            
+            <div class="pain-solution-list">
+              <div class="pain-item">
+                <span class="pain-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </span>
+                <span>Horas descargando y copiando planillas interminables de Excel.</span>
+              </div>
+
+              <div class="pain-item">
+                <span class="pain-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </span>
+                <span>Cruce manual de datos entre sucursales y riesgo de inconsistencias.</span>
+              </div>
+
+              <div class="pain-item">
+                <span class="pain-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </span>
+                <span>Reportes que llegan tarde para definir compras o corregir costos.</span>
+              </div>
+
+              <div class="solution-divider" role="separator"></div>
+
+              <div class="solution-item">
+                <span class="solution-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Tango y Excel procesados automáticamente sin fricción.</span>
+              </div>
+
+              <div class="solution-item">
+                <span class="solution-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                </span>
+                <span>Información confiable lista en minutos para cada sucursal.</span>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================================
+         4. CTA FINAL SECTION
+         ================================================================= -->
+    <section class="cta-section" id="contacto" aria-label="Llamado a la acción final">
+      <div class="container container-narrow">
+        
+        <h2 class="cta-title">
+          ¿Querés dejar de perder horas con tus datos?
+        </h2>
+
+        <p class="cta-subtitle">
+          Escribime por WhatsApp y conversemos sobre la situación puntual de tu negocio y cómo simplificar tus informes.
+        </p>
+
+        <a href="https://wa.me/5492974110228?text=Hola%20Vane!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20las%20soluciones%20de%20Vanexia%20para%20mi%20negocio." target="_blank" rel="noopener noreferrer" class="btn-cta-whatsapp whatsapp-btn" data-action="whatsapp" id="cta-btn-whatsapp" aria-label="Hablemos por WhatsApp">
+          <!-- Icono WhatsApp -->
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 18.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.12 8.12 0 0 1-1.25-4.29c0-4.51 3.67-8.18 8.19-8.18 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.51-3.67 8.18-8.19 8.18zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.17 1.73 2.65 4.2 3.71.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z"/>
+          </svg>
+          <span>Hablemos por WhatsApp</span>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =================================================================
+       FOOTER E IDENTIDAD DE MARCA
+       ================================================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo-row">
+            <img src="assets/logo-icon.png" alt="Vanexia Icon" class="footer-logo-img" width="38" height="38">
+            <span class="footer-brand-name">VANEXIA</span>
+          </div>
+          <p class="footer-tagline">
+            Soluciones de automatización, análisis de datos e inteligencia artificial orientadas a la toma de decisiones ágiles.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 <strong>VANEXIA</strong>. Todos los derechos reservados.
+        </div>
+        <div>
+          Diseñado para negocios que valoran su tiempo y sus decisiones.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =================================================================
+       BOTÓN FLOTANTE DIRECTO DE WHATSAPP
+       ================================================================= -->
+  <a href="https://wa.me/5492974110228?text=Hola%20Vane!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20las%20soluciones%20de%20Vanexia%20para%20mi%20negocio." target="_blank" rel="noopener noreferrer" class="floating-whatsapp whatsapp-btn" data-action="whatsapp" id="floating-whatsapp-btn" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 18.06c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.12 8.12 0 0 1-1.25-4.29c0-4.51 3.67-8.18 8.19-8.18 2.19 0 4.25.85 5.8 2.4 1.55 1.55 2.4 3.61 2.4 5.8 0 4.51-3.67 8.18-8.19 8.18zm4.49-6.13c-.25-.12-1.47-.72-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.39-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.84-.86 2.05s.88 2.38 1 2.54c.12.17 1.73 2.65 4.2 3.71.59.25 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.18-.47-.3z"/>
+    </svg>
+    <span>Hablemos por WhatsApp</span>
+  </a>
+
+  <!-- Script principal -->
+  <script src="main.js"></script>
+</body>
+</html>
